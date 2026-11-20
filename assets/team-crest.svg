@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 228" role="img" aria-label="DSE 2017 placeholder team crest">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14325a"/><stop offset="1" stop-color="#0b1d33"/></linearGradient>
+  </defs>
+  <path d="M100 6 L186 30 V104 C186 160 148 198 100 222 C52 198 14 160 14 104 V30 Z" fill="#006847"/>
+  <path d="M100 18 L175 39 V104 C175 152 142 186 100 208 C58 186 25 152 25 104 V39 Z" fill="url(#g)"/>
+  <path d="M100 18 L175 39 V104 C175 152 142 186 100 208 C58 186 25 152 25 104 V39 Z" fill="none" stroke="#c9d7e3" stroke-width="2"/>
+  <text x="100" y="78" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="44" fill="#ffffff" letter-spacing="2">DSE</text>
+  <g stroke-linecap="round">
+    <path d="M58 98 L132 160" stroke="#c9d7e3" stroke-width="9"/>
+    <path d="M132 160 L148 160" stroke="#c9d7e3" stroke-width="9"/>
+    <path d="M142 98 L68 160" stroke="#3ddc97" stroke-width="9"/>
+    <path d="M68 160 L52 160" stroke="#3ddc97" stroke-width="9"/>
+  </g>
+  <ellipse cx="100" cy="128" rx="17" ry="7" fill="#05101d" stroke="#ffffff" stroke-width="2"/>
+  <rect x="40" y="166" width="120" height="30" rx="6" fill="#006847" stroke="#ffffff" stroke-width="2"/>
+  <text x="100" y="189" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="22" fill="#ffffff" letter-spacing="4">2017</text>
+</svg>

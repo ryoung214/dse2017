@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rally Pantry · Team Fundraiser Demo</title>
+<meta name="description" content="Clickable demo of a multi-supplier team fundraising store: popcorn, Baja Vida jerky, coffee, healthy snacks and team gear.">
+<link rel="preconnect" href="https://api.fontshare.com">
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@500,700,800&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<link rel="icon" href="./assets/team-crest.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="demo-ribbon" role="note">Clickable demo · sample products, prices and margins · no real payments</div>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <button class="brand" data-go="home" aria-label="Rally Pantry home">
+      <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="8" fill="currentColor"/><path d="M9 21.5h14M11 17l5-7 5 7" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="brand-name">Rally Pantry</span><span class="brand-tag">working name</span>
+    </button>
+    <nav class="nav" aria-label="Main">
+      <button data-go="home">Campaign</button>
+      <button data-go="shop">Shop</button>
+      <button data-go="players">Players</button>
+      <button data-go="admin">Organizer</button>
+    </nav>
+    <button class="cart-btn" id="cartBtn" aria-label="Open cart">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M3 4h2l2.4 11.2a1 1 0 0 0 1 .8h9.2a1 1 0 0 0 1-.8L20 8H6.2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="20" r="1.4" fill="currentColor"/><circle cx="17" cy="20" r="1.4" fill="currentColor"/></svg>
+      <span>Cart</span><span class="badge" id="cartCount">0</span>
+    </button>
+  </div>
+  <div class="credit-bar" id="creditBar" hidden></div>
+</header>
+
+<main id="app" tabindex="-1"></main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <strong>Rally Pantry</strong> (working name) · Concept demo for youth hockey team fundraising.
+      <p class="muted small">Dallas Stars Elite gear is shown as a placeholder pending written club approval. No NHL or Dallas Stars marks are used on fundraiser products, and the DSE 2017 crest is a placeholder until the club provides approved artwork; the team photo is included for this private demo. Official Stars merchandise links out to Fanatics as an affiliate. Baja Vida images and prices from <a href="https://bajavida.com/" target="_blank" rel="noopener">bajavida.com</a>; other product photos are illustrative.</p>
+    </div>
+    <div class="foot-side"><a class="foot-ig" href="https://www.instagram.com/dsehockey2017/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/></svg><span>@dsehockey2017</span></a><div class="muted small">Demo build · November 2026 · Team crest is a placeholder</div></div>
+  </div>
+</footer>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" aria-label="Cart" aria-hidden="true"></aside>
+<div class="modal" id="modal" role="dialog" aria-modal="true" hidden></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="./data.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
